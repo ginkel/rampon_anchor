@@ -98,6 +98,7 @@ fn main() -> ! {
         .composite_with_iads()
         .manufacturer("Anchor")
         .product("Rampon")
+        .serial_number("Y")
         .device_class(USB_CLASS_CDC)
         .build();
 
